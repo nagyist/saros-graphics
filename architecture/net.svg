@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="428" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="356" height="240">
 
 	<style type="text/css">
 	<![CDATA[
@@ -17,30 +17,26 @@
 		</linearGradient>
 	</defs>
 	<g>
-		<rect x="8" y="8" rx="8" ry="8" width="412" height="224" class="gFrame"/>
+		<rect x="8" y="8" rx="8" ry="8" width="340" height="224" class="gFrame"/>
 		<g transform="translate(16,16)">
 			<rect rx="8" ry="8" width="64" height="208" class="gNet"/>
 			<text x="0" y="8" transform="translate(32,112) rotate(270,0,0)" class="textBox">Discovery</text>
 		</g>
 		<g transform="translate(88,16)">
-			<rect rx="8" ry="8" width="64" height="208" class="gNet"/>
-			<text x="0" y="8" transform="translate(32,112) rotate(270,0,0)" class="textBox">Stream Service</text>
-		</g>
-		<g transform="translate(160,16)">
 			<rect rx="8" ry="8" width="180" height="64" class="gNet"/>
 			<text x="90" y="28" class="textBox">XMPP Transmitter</text>
 			<text x="90" y="48" class="textBox">XMPP Receiver</text>
 		</g>
-		<g transform="translate(160,88)">
+		<g transform="translate(88,88)">
 			<rect rx="8" ry="8" width="180" height="64" class="gNet"/>
 			<text x="90" y="28" class="textBox">Data Transfer</text>
 			<text x="90" y="48" class="textBox">Manager</text>
 		</g>
-		<g transform="translate(160,160)">
+		<g transform="translate(88,160)">
 			<rect rx="8" ry="8" width="180" height="64" class="gNet"/>
 			<text x="90" y="38" class="textBox">Transport</text>
 		</g>
-		<g transform="translate(348,16)">
+		<g transform="translate(276,16)">
 			<rect rx="8" ry="8" width="64" height="208" class="gNet"/>
 			<text x="0" y="8" transform="translate(32,112) rotate(270,0,0)" class="textBox">Saros Net</text>
 		</g>
