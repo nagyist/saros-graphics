@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="424" height="344">
+
+	<style type="text/css">
+	<![CDATA[
+		.textBox {fill:#000000;font-family:Arial;font-size:16pt;text-anchor:middle}
+		.gUI {fill:url(#grad_yellow);stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.gFrame {fill:none;stroke:#356DB2;stroke-linecap:round;stroke-linejoin:round;stroke-width:6}
+		.gJava{fill:url(#grad_red);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+	]]>
+	</style>
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad_yellow" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0" style="stop-color:#F4DD71;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#ED940D;stop-opacity:1"/>
+		</linearGradient>
+		<linearGradient id="grad_red" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0" style="stop-color:#CC6666;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#894444;stop-opacity:1"/>
+		</linearGradient>
+	</defs>
+	<g>
+		<rect x="10" y="10" rx="8" ry="8" width="404" height="180" class="gFrame"/>
+		<g transform="translate(20,20)">
+			<rect rx="8" ry="8" width="64" height="160" class="gUI"/>
+			<text x="0" y="8" transform="translate(32,80) rotate(270,0,0)" class="textBox">Widgets</text>
+		</g>
+		<g transform="translate(92,20)">
+			<rect rx="8" ry="8" width="64" height="160" class="gUI"/>
+			<text  x="0" y="8" transform="translate(32,80) rotate(270,0,0)" class="textBox">Dialogs</text>
+		</g>
+		<g transform="translate(164,20)">
+			<rect rx="8" ry="8" width="80" height="160" class="gUI"/>
+			<text x="0" y="8" transform="translate(30,80) rotate(270,0,0)" class="textBox">Viewers</text>
+			<text x="0" y="8" transform="translate(50,80) rotate(270,0,0)" class="textBox">and Models</text>
+		</g>
+		<g transform="translate(252,20)">
+			<rect rx="8" ry="8" width="64" height="160" class="gUI"/>
+			<text x="0" y="8" transform="translate(32,80) rotate(270,0,0)" class="textBox">Wizards</text>
+		</g>
+		<g transform="translate(324,20)">
+			<rect rx="8" ry="8" width="80" height="160" class="gUI"/>
+			<text x="0" y="8" transform="translate(30,80) rotate(270,0,0)" class="textBox">Commands</text>
+			<text x="0" y="8" transform="translate(50,80) rotate(270,0,0)" class="textBox">and Menus</text>
+		</g>
+	</g>
+	<g transform="translate(8,200)">
+		<path d="M 104,0 C 108,0 112,4 112,8
+				 V 64  C 112,68 116,72 120,72
+				 H 300 C 304,72 306,76 306,80
+				 V 128 C 306,132 304,136 300,136
+				 H 8   C 4,136 0,134 0,128
+				 V 8   C 0,4 4,0 8,0
+				 Z" class="gJava"/>
+		<text x="146" y="112" class="textBox">SWT</text>
+	</g>
+	<g transform="translate(128,200)">
+		<rect rx="8" ry="8" width="188" height="64" class="gJava"/>
+		<text x="94" y="40" class="textBox">JFace</text>
+	</g>	
+</svg>
