@@ -38,7 +38,8 @@
 		</g>
 		<g transform="translate(276,16)">
 			<rect rx="8" ry="8" width="64" height="208" class="gNet"/>
-			<text x="0" y="8" transform="translate(32,112) rotate(270,0,0)" class="textBox">Saros Net</text>
+			<text x="8" y="8" transform="translate(22,112) rotate(270,0,0)" class="textBox">XMPP Connection</text>
+            <text x="8" y="8" transform="translate(44,112) rotate(270,0,0)" class="textBox">Service</text>
 		</g>
 	</g>
 </svg>
