@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="880" height="200">
+
+	<style type="text/css">
+	<![CDATA[
+		.textHeading {fill:#000000;font-family:Arial;font-size:16pt;text-anchor:middle}
+		.textCode {fill:#000000;font-family:Courier;font-size:11pt;text-anchor:middle}
+		.gFrame {fill:none;stroke:#356DB2;stroke-linecap:round;stroke-linejoin:round;stroke-width:6}
+		.gSaros {fill:url(#grad_blue);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.gEclipse {fill:url(#grad_purple);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.gIntellij {fill:url(#grad_orange);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.gOther {fill:url(#grad_grey);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+	]]>
+	</style>
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad_blue" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0" style="stop-color:#A8C2E0;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#356DB2;stop-opacity:1"/>
+		</linearGradient>
+		<linearGradient id="grad_purple" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0" style="stop-color:#C8BCD1;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#8D7A99;stop-opacity:1"/>
+		</linearGradient>
+		<linearGradient id="grad_orange" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0" style="stop-color:#F9D47C;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#EFA977;stop-opacity:1"/>
+		</linearGradient>
+		<linearGradient id="grad_grey" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0" style="stop-color:#aebcbf;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#6e7774;stop-opacity:1"/>
+		</linearGradient>
+	</defs>
+	<g transform="translate(10,10)">
+		<rect x="0" y="0" rx="8" ry="8" width="252" height="180" class="gFrame"/>
+		
+		<text x="130" y="26" class="textHeading">Saros for Eclipse</text>
+
+		<g transform="translate(10,34)">
+			<rect rx="8" ry="8" width="232" height="64" class="gEclipse"/>
+			<text x="116" y="34" class="textHeading">Eclipse Adapter</text>
+			<text x="116" y="50" class="textCode">dpp</text>
+		</g>
+		<g transform="translate(10,106)">
+			<rect rx="8" ry="8" width="232" height="64" class="gSaros"/>
+			<text x="116" y="34" class="textHeading">Saros Core</text>
+			<text x="116" y="50" class="textCode">dpp.core</text>
+		</g>
+	</g>
+	
+	<g transform="translate(300,10)">
+		<rect x="0" y="0" rx="8" ry="8" width="252" height="180" class="gFrame"/>
+		
+		<text x="130" y="25" class="textHeading">Saros for IntelliJ IDEA</text>
+
+		<g transform="translate(10,34)">
+			<rect rx="8" ry="8" width="232" height="64" class="gIntellij"/>
+			<text x="116" y="34" class="textHeading">IntelliJ IDEA Adapter</text>
+			<text x="116" y="50" class="textCode">dpp.intellij</text>
+		</g>
+		<g transform="translate(10,106)">
+			<rect rx="8" ry="8" width="232" height="64" class="gSaros"/>
+			<text x="116" y="34" class="textHeading">Saros Core</text>
+			<text x="116" y="50" class="textCode">dpp.core</text>
+		</g>
+	</g>
+	
+	<g transform="translate(590,10)" style="opacity: 0.6">
+		<rect x="0" y="0" rx="8" ry="8" width="252" height="180" class="gFrame"/>
+		
+		<text x="130" y="25" class="textHeading">Saros for X</text>
+
+		<g transform="translate(10,34)">
+			<rect rx="8" ry="8" width="232" height="64" class="gOther"/>
+			<text x="116" y="34" class="textHeading">X Adapter</text>
+			<text x="116" y="50" class="textCode">dpp.xadapter</text>
+		</g>
+		<g transform="translate(10,106)">
+			<rect rx="8" ry="8" width="232" height="64" class="gSaros"/>
+			<text x="116" y="34" class="textHeading">Saros Core</text>
+			<text x="116" y="50" class="textCode">dpp.core</text>
+		</g>
+	</g>
+
+</svg>
